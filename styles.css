@@ -1,0 +1,214 @@
+body{
+    background-color: rgba(79, 148, 148, 0.55);
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+#add{
+    position: fixed;
+    font-size: 25px;
+    display: block;
+    margin-left: -100px;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    background-color: rgba(53, 148, 114, 0.41);
+    border: 3px solid #ddd;
+    margin-top: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    left: 50%;
+}
+#add:hover{
+    background-color: rgba(24, 83, 43, 0.75);
+}
+#columns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-top: 60px;
+}
+.column{
+    display: flex;
+    align-self: center;
+    min-width: 230px;
+    min-height: 500px;
+    border: 3px solid #ddd;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: #4dc466;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.delete {
+    font-size: 25px;
+    background-color: #4dc466;
+    border: 0px;
+    position: relative;
+    margin-left: 180px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.delete:hover{
+    font-size: 40px;
+}
+.name {
+    margin-bottom: 10%;
+    text-align: center;
+}
+.btnAddTable{
+    background-color: #4dc466;
+    border: 3px solid #ddd;
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btnAddTable:hover{
+    background-color: #004b00;
+}
+#link{
+    display: none;
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+#link:target{
+    display: block;
+}
+.newTaskTitle{
+    font-size: 30px;
+    font-weight: bold;
+}
+.leavePopup{
+    font-size: 30px;
+    margin-left: 90%;
+    background-color: rgb(53, 148, 114);
+    border: 1px solid rgb(53, 148, 114);
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.leavePopup:hover{
+    font-size: 40px;
+}
+.popup{
+    text-align: center;
+    background-color: #359472;
+    padding: 20px;
+    border: 20px solid #ddd;
+    position: relative;
+    margin: 5% auto;
+    width: 60%;
+    box-shadow: 0px 0px 20px #000;
+    border-radius: 10px;
+    height: 80%;
+}
+.inputDescription{
+    border-radius: 10px;
+    height: 80px;
+    margin-top: 20px;
+    min-width: 20%;
+    max-width: 80%;
+}
+.newTaskTitle, .inputTitle {
+    text-align: center;
+}
+.inputTitle{
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 70%;
+    height: 20px;
+}
+.btnCreate{
+    font-size: 20px;
+    margin-left: 40%;
+    margin-top: 40px;
+    width: 20%;
+    height: 50px;
+    background-color: #f2f2f2;
+    border: 3px solid green;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.titleTask{
+    font-size: 45px;
+    margin-left: 40px;
+   text-align: center;
+    max-width: 160px;
+}
+.title{
+    font-size: 35px;
+}
+.Table{
+    text-align: center;
+    border: 4px solid #ddd;
+    margin-left: 12px;
+    margin-top: 21px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+.Table:hover{
+    background-color: #004b00;
+}
+.descr{
+    font-size: 20px;
+}
+.createButton{
+    background: #f2f2f2;
+    border: 2px solid green;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.createButton:hover{
+    font-size: 20px;
+    width: 70px;
+    height: 30px;
+    background-color: #004b00;
+    color: #ffffff;
+}
+.task{
+    font-size: 50px;
+}
+.titlePopUp{
+    width: 39%;
+    height: 5%;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+    font-size: 40px;
+    border-radius: 10px;
+}
+.descriptionPopUp{
+    margin-top: 50px;
+    width: 80%;
+    height: 30%;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.btnChange{
+    cursor: pointer;
+    width: 34%;
+    height: 7%;
+    margin-top: 50px;
+    border: 3px solid green;
+    background: #f2f2f2;
+    border-radius: 10px;
+    font-size: 100%;
+}
+.btnChange:hover{
+    background-color: #004500;
+}
